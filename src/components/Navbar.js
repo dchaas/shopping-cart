@@ -6,8 +6,15 @@ function Navbar() {
     <nav className="navbar">
       <img className="logo" src={meats}></img>
       <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/shop">Shop</Link>
+        <Link className="lnk" to="/">
+          Home
+        </Link>
+        <Link className="lnk" to="/shop">
+          Shop
+        </Link>
+        <Link className="lnk" to="/cart">
+          Cart
+        </Link>
       </div>
     </nav>
   );
