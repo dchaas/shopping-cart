@@ -74,3 +74,18 @@ body {
 h1 {
   font-size: 3rem;
 }
+
+.shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 20vw);
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}

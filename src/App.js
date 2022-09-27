@@ -3,6 +3,7 @@ import Home from "./components/Home.js";
 import Shop from "./components/Shop.js";
 import Cart from "./components/Cart.js";
 import Navbar from "./components/Navbar.js";
+import { React, useState, useEffect } from "react";
 import "./App.css";
 
 // App.js will be the entry point for the router
