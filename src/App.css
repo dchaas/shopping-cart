@@ -89,3 +89,26 @@ h1 {
   align-items: center;
   justify-items: center;
 }
+
+.item-img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px #472d2d; */
+}
+
+.order {
+  display: flex;
+  gap: 12px;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  width: 200px;
+}
