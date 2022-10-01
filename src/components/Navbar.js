@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import meats from "../assets/meats.png";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <nav className="navbar">
       <img className="logo" src={meats}></img>
@@ -13,7 +13,7 @@ function Navbar() {
           Shop
         </Link>
         <Link className="lnk" to="/cart">
-          Cart
+          Cart ({props.cart.length})
         </Link>
       </div>
     </nav>
